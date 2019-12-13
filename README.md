@@ -19,6 +19,7 @@ Next, I give a summary with the steps I currently followed:
     Sweave2knitr("file.Rnw")
     ```  
   applied to your file.
+  
   3. In the output file `file-knitr.Rnw` ensure that right below `\begin{document}` you has
   
   ```
@@ -27,6 +28,7 @@ Next, I give a summary with the steps I currently followed:
   @
   ```
   Now the default options for the `R` code blocks (or chunks) can be those that the library `knitr` understands, more than those which `Sweave` allows.
+  
   4. Open this file with RStudio. Open `Tools > Global Options > Sweave` and choose the option `Weave Rnw files using: knitr` (at least with `RStudio Version 1.1.463` with `Windows 10`). Then, in the main window of RStudio execute `Compile PDF`.
   5. Among the output files is the `pdf`, but also the intermediate `TeX` file, which one can customize, including `R` code colours, before applying to it `pdflatex`.
 
