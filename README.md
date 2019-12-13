@@ -32,5 +32,5 @@ Next, I give a summary with the steps I currently followed:
   4. Open this file with RStudio. Open `Tools > Global Options > Sweave` and choose the option `Weave Rnw files using: knitr` (at least with `RStudio Version 1.1.463` with `Windows 10`). Then, in the main window of RStudio execute `Compile PDF`.
   5. Among the output files is the `pdf`, but also the intermediate `TeX` file, which one can customize, including `R` code colours, before applying to it `pdflatex`.
 
-The other file in this repository is a `LaTeX` template with the essential `TeX` output of this process.
+The other file in this repository is a `LaTeX` template with the essential `TeX` output of this process, with some explanatory comments added.
    
